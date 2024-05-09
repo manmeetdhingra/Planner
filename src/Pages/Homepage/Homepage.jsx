@@ -24,16 +24,16 @@ export default function Homepage() {
   return (
     <div className='main-container'>
         
-        <h1 style={{marginBottom: '30px', display: 'flex', justifyContent: 'center'}}>
-          
-          Your daily&nbsp;
-          <Typewriter 
+        {/* <h1 style={{marginBottom: '30px', display: 'flex', justifyContent: 'center'}}> Your daily&nbsp;</h1>  */}
+          <h1><Typewriter 
         options={{
-          strings: ['Planner', 'Diary', 'Journal'],
+          strings: ['Appointment Planner', 'Contact Diary'],
           autoStart: true,
           loop: true,
         }}
-        /></h1>
+        />
+        </h1>
+        
         <hr/>
         <div className='stoic-container'>
         <h3>A nugget of Stoic Wisdom:</h3>

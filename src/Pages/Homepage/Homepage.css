@@ -19,13 +19,13 @@
     align-items: center;
     border: 2px #17171F solid;
     width: 300px;
-    border-radius: 12px;
     margin-top: 50px;
 }
 
 .icon-container button{
     margin-top: 20px;
-        min-width: 100px;
+    margin-bottom: 40px;
+        min-width: 130px;
         height: 40px;
         color: #FAFAFA;
         padding: 5px 10px;
@@ -35,17 +35,18 @@
         position: relative;
         display: inline-block;
         outline: none;
-        border: 2px solid #17171F;
-        background: #17171F;
-        margin-bottom: 30px;
+        border: 2px solid #212529;
+        background: #212529;
       
       
-}
-
-.icon-container button:hover {
-        background: #FAFAFA;
-        color: #17171F
       }
+    
+      .icon-container button:hover {
+        background: #FAFAFA;
+        color: #212529
+      }
+
+      
 
       .icon {
   margin-top: 25px;
